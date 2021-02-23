@@ -40,7 +40,7 @@ transition in .color-change class is what makes the change less instantenous*/
     position: relative;
     width: 25vw;
     margin: auto;
-    background-image: url(clock1.png);
+    background-image: url(clock_icons/clock1.png);
     background-size: cover;
     box-shadow: 0 -15px 15px rgb(255,255,255,0.05),
     inset 0 -15px 15px rgb(255,255,255,0.05),
