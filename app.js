@@ -40,8 +40,6 @@ function getRandomNumber() {
   return Math.floor(Math.random() * hex.length);
 }
 
-
-
 function mainTime() {
   const now = new Date();
 
@@ -93,12 +91,11 @@ function mainTime() {
     dHours.style.backgroundColor = lightenColor(hexColor, 10);
     dMinute_1.style.backgroundColor = lightenColor(hexColor, 10);
     amOrpm.style.backgroundColor = lightenColor(hexColor, 10);
-    
+    btn.style.backgroundColor= lightenColor(hexColor, 10);
   });
 
 
 }
 //sets an interval for the function every second to keep an accurate time
 setInterval(mainTime, 1000);
-
 mainTime();
