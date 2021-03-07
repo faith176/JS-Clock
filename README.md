@@ -6,6 +6,7 @@ A clock created in Vanilla Javascript which provides accurate time along with th
 - Gives users the option to change the background to a random color
 - the function that changes the background also changes the digital clock and button background to be a shade lighter than the main background for style
 
+# Pictures of App
 ![Blue](png/blue_clock.png)
 ![Red](png/red_clock.png)
 ![Green](png/green_clock.png)
