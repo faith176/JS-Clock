@@ -2,8 +2,6 @@ body{
     background-color: #efe6f9;
 }
 
-
-
 /* ======================
  *  Colour changing button
  * ======================= */
@@ -28,8 +26,6 @@ transition in .color-change class is what makes the change less instantenous*/
   color: white;
   background: black;
 }
-
-
 
 /* ==================
  *  Analogue Clock
@@ -77,7 +73,6 @@ transition in .color-change class is what makes the change less instantenous*/
 /* transform-origin specifies the point around where the transformation is applied, 
 for this roation it need to be done at the bottom of each clock hand  */
     transform-origin: bottom;
-
 position:absolute;
 content: '';
 width: 2.25%;
@@ -87,7 +82,6 @@ z-index: 12;
 border-radius: 6px 6px 0 0;
 left: 49.5%;
 top: 35.5%;
-
 }
 
 
@@ -95,7 +89,6 @@ top: 35.5%;
 /* transform-origin specifies the point around where the transformation is applied, 
 for this roation it need to be done at the bottom of each clock hand  */
     transform-origin: bottom;
-
 position: absolute;
 content: '';
 width: 1.5%;
@@ -112,7 +105,6 @@ top: 27.5%;
 /* transform-origin specifies the point around where the transformation is applied, 
 for this roation it need to be done at the bottom of each clock hand  */
 transform-origin: bottom;
-
 position: absolute;
 content: '';
 width: 0.95%;
@@ -131,7 +123,6 @@ top: 20.5%;
  * ================== */
  #date {
      font-size: 3.5vw;
-     
  }
 
  .digital-clock {
@@ -139,7 +130,6 @@ top: 20.5%;
     display: flex;
     justify-content: center;
     font-size: 50px;
-
   }
 
   .digit-container {
