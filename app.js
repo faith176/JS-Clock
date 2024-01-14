@@ -64,16 +64,9 @@ function mainTime() {
   hr.style.transform = `rotate(${hourDegrees}deg)`;
   
   //sets digital clock
-  if (hours > 12) {
-    amOrpm.textContent = "PM";
-    let hour12_time = (hours % 12);
-    dHours.textContent = hour12_time;
-  }
-
-  if (hours< 12) {
-    amOrpm.textContent = "AM";
-    dHours.textContent = hours;
-  }
+  const timeOfDay = hours > 12 ? "PM" : "AM"
+  amOrpm.textContent = timeOfDay
+  dHours.textContent = hours == 0? 12: hours%12;
 
   const current_date = String(months[now.getMonth()] + " " + now.getDate() + ", "  + now.getFullYear());
   //changes span showing date to the current date
